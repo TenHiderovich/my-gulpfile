@@ -17,8 +17,7 @@ $.gulp.task('default', $.gulp.series(
     $.gulp.parallel(
         'sass',
         'connect',
-        'ugli-con-ren',
-        'sprite'
+        'ugli-con-ren'
     ),
     $.gulp.parallel(
         'watch',
